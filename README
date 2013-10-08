@@ -6,4 +6,6 @@ It's features so far are:
 
 * no wrapping of basic flint types (fmpz, etc.) required, the flint functions are called directly
 
+* function pointers instead of case statements for dispatch
+
 The design is experimental. It may become useless for objects with context objects.
