@@ -1,0 +1,9 @@
+This is an experimental flint2 generics module for generic ring computations.
+
+It's features so far are:
+
+* flat arrays of structs as the underlying representation of polynomials, etc.
+
+* no wrapping of basic flint types (fmpz, etc.) required, the flint functions are called directly
+
+The design is experimental. It may become useless for objects with context objects.
